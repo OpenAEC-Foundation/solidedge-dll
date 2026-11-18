@@ -1,0 +1,11 @@
+[package]
+name = "sedge-read"
+description = "Reader of Solid Edge parts, sheet metal parts and assemblies: the saved tessellation as meshes"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[dependencies]
+sedge-core.workspace = true
