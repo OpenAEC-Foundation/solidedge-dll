@@ -4,12 +4,11 @@ Native library that reads Solid Edge parts (`.par`), sheet metal parts (`.psm`) 
 (`.asm`) without Solid Edge, for use by
 [open-bim-suite](https://github.com/OpenAEC-Foundation/open-bim-suite) and other tools.
 
-**Status:** private, pre-alpha. Parts and sheet metal parts open as coloured triangle meshes,
+**Status:** pre-alpha. Parts and sheet metal parts open as coloured triangle meshes,
 read from the display cache Solid Edge saves with the model; assemblies place the files of their
 parts, or are drawn from the preview they hold. Of the 257 files of the sample set 247 open: all
 208 parts and sheet metal parts that hold a model (9 more hold sketches only) and 39 of the 40
-assemblies (1 places no parts). Do not make this repository public without a decision by the
-maintainers (see "Legal" below).
+assemblies (1 places no parts).
 
 ## Scope
 
